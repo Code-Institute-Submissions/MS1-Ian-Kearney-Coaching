@@ -2,26 +2,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+/*------------------------- Standard styling across all pages ---------------------------- */
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
 /*------------------------- Header ---------------------------- */
 
 header{
     background-color: #737373;
-    padding-top: 20px;
 }
 
 .navbar-brand{
     font-family: 'Oswald', sans-serif;
     font-weight: 100;
-    color: #fff;
-    text-align: center;}
-
-.page-title{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 100;
-    text-decoration: none;
-    color: #fff;
+    color: #737373;
     text-align: center;
-}
+    }
 
 .page-title a:hover {
     color: #fff;
@@ -33,8 +40,11 @@ header{
     font-weight: 300;
     font-size: 15px;
     background-color: #2980cc;
-    margin-top: 20px;
     text-align: center;
+}
+
+.navbar-text{
+    color: #fff;
 }
 
 .active{
@@ -66,25 +76,84 @@ a:link{
     animation-fill-mode: forwards;
 }
 
-#banner-outer{
+.banner-outer{
     height:auto;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#banner-outer h1{
+.banner-outer h1{
    position: absolute; 
    align-content: center;
-   top: 50%; 
+   top: 35%; 
    left: 30%;
    width: 40%; 
-   padding-bottom: 30px;
-   padding-top: 30px;
+   padding-bottom: 20px;
+   padding-top: 20px;
    text-align: center;
    font-family: 'Lato', sans-serif;
    font-weight: 200;
    color: #fff;
-   background-color: rgba(41, 128, 204, 0.7)
+   background-color: rgba(41, 128, 204, 1)
 }
 
+.navbar-brand img{
+    height: 30px;
+    width: auto;
+}
+
+.logo img{
+    width: 40%;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo{
+    align-content: center;
+}
+
+/*------------------------- body text ---------------------------- */
+
+
+.home{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    color: #737373;
+    padding: 10vh; 
+}
+
+/*------------------------- footer ---------------------------- */
+footer{
+    background-color: #737373;
+    color: #fff;
+    width: 100%;
+    padding-top: 10px;
+}
+
+footer, h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    color: #fafafa;
+    background: #2980cc;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
