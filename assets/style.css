@@ -28,7 +28,7 @@ header{
     text-decoration: none;
 }
 
-.nav-bar{
+.navbar{
     font-family: 'lato', sans-serif;
     font-weight: 300;
     font-size: 15px;
@@ -50,3 +50,41 @@ a:link{
     color: #000;
     text-decoration: underline;
 }
+
+.fa-bars{
+    color: #fff;
+}
+
+/*------------------------- Images ---------------------------- */
+#banner-image{
+    height:auto;
+    width: 100%;
+    background: url("index.html") no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#banner-outer{
+    height:auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#banner-outer h1{
+   position: absolute; 
+   align-content: center;
+   top: 50%; 
+   left: 30%;
+   width: 40%; 
+   padding-bottom: 30px;
+   padding-top: 30px;
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-weight: 200;
+   color: #fff;
+   background-color: rgba(41, 128, 204, 0.7)
+}
+
