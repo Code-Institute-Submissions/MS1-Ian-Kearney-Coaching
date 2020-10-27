@@ -56,13 +56,13 @@ a:link{
     color: #fff;
 }
 
+.nav-item a:visited{
+    color: #003d73;
+}
+
 .nav-item a:hover{
     color: #000;
     text-decoration: underline;
-}
-
-.nav-item a:visited{
-    color: #003d73;
 }
 
 .navbar-brand:visited{
@@ -78,43 +78,6 @@ a:link{
 }
 
 /*------------------------- Images ---------------------------- */
-#banner-image{
-    height:auto;
-    width: 100%;
-    background: url("index.html") no-repeat center center;
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-.banner-outer{
-    height:auto;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-.banner-outer h1{
-   position: absolute; 
-   align-content: center;
-   top: 35%; 
-   left: 30%;
-   width: 40%; 
-   padding-bottom: 20px;
-   padding-top: 20px;
-   text-align: center;
-   font-family: 'Lato', sans-serif;
-   font-weight: 200;
-   color: #fff;
-   background-color: rgba(41, 128, 204, 1)
-}
-
-.navbar-brand img{
-    height: 30px;
-    width: auto;
-}
-
 .logo img{
     width: 40%;
     height: auto;
@@ -135,6 +98,44 @@ footer img{
     padding-bottom: 10px;
 }
 
+.home img{
+    width: 50%;
+    height: auto;
+    align-content: center;
+    margin: auto;
+    display: inline-block;
+}
+
+/*------------------------- Media Rules for images ---------------------------- */
+
+@media screen and (min-width: 1024px) {
+  footer img {
+    width: 35%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo img {
+    width: 30%;
+    height: auto;
+  }
+  .home img {
+      width: 30%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo img {
+    width: 20%;
+    height: auto;
+  }
+  .home img{
+      width: 20%;
+      height: auto;
+  }
+}
 /*------------------------- body text ---------------------------- */
 
 
@@ -144,6 +145,27 @@ footer img{
     font-size:16px;
     color: #737373;
     padding: 5vh; 
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .home{
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .home{
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
 }
 
 /*------------------------- footer ---------------------------- */
@@ -163,7 +185,10 @@ footer, h5{
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    padding-left: 10px;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
@@ -176,4 +201,9 @@ footer, h5{
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.social{
+    align-content: center;
+    text-align: center;
 }
