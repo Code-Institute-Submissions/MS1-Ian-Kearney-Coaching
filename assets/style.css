@@ -14,6 +14,7 @@ body{
     background-color: #fff;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    color: #737373
     position: relative;
 }
 
@@ -98,12 +99,17 @@ footer img{
     padding-bottom: 10px;
 }
 
-.home img{
+.main-text img{
     width: 50%;
     height: auto;
     align-content: center;
     margin: auto;
     display: inline-block;
+}
+
+.banner-image img{
+    width: 100%;
+    height: auto;
 }
 
 /*------------------------- Media Rules for images ---------------------------- */
@@ -131,7 +137,7 @@ footer img{
     width: 20%;
     height: auto;
   }
-  .home img{
+  .main-text img{
       width: 20%;
       height: auto;
   }
@@ -139,7 +145,7 @@ footer img{
 /*------------------------- body text ---------------------------- */
 
 
-.home{
+.main-text{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size:16px;
@@ -148,24 +154,41 @@ footer img{
 }
 
 @media screen and (max-width: 768px) {
-    .home{
+    .main-text{
         margin-left: 0vw;
         margin-right: 0vw;
     }
 }
 
 @media screen and (min-width: 1000px) {
-    .home{
+    .main-text{
         margin-left: 7vw;
         margin-right: 7vw;
     }
 }
 
 @media screen and (min-width: 1400px) {
-    .home{
+    .main-text{
         margin-left: 15vw;
         margin-right: 15vw;
     }
+}
+
+/*------------------------- Testimonials main text ---------------------------- */
+
+.testimonial p{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.testimonial .improvements{
+    font-weight: 700;
+    color: #2980cc;
+}
+
+.hr {
+    border: 1px solid #2980cc;
+    width: 50%;
 }
 
 /*------------------------- footer ---------------------------- */
