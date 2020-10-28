@@ -18,6 +18,10 @@ body{
     position: relative;
 }
 
+.row{
+    margin-bottom: 30px;
+}
+
 /*------------------------- Header ---------------------------- */
 
 header{
@@ -184,11 +188,47 @@ footer img{
 .testimonial .improvements{
     font-weight: 700;
     color: #2980cc;
+    font-size: 12px;
 }
 
 .hr {
     border: 1px solid #2980cc;
-    width: 50%;
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.testimonial-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*------------------------- Contact main text ---------------------------- */
+
+.address p{
+    margin-bottom: 8px;
+}
+
+.address{
+    text-align: center
+}
+
+.address a{
+    color: #2980cc;
+}
+
+.address h4{
+    color: #2980cc;
+}
+
+.main-text button{
+    background-color: #2980cc;
+    color: #fff;
+}
+
+.submit-btn{
+    margin: auto;
+    display: block;
 }
 
 /*------------------------- footer ---------------------------- */
