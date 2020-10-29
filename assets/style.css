@@ -178,6 +178,21 @@ footer img{
     }
 }
 
+/*------------------------- index main text ---------------------------- */
+
+.about-heading{
+    text-align: center
+}
+
+.about-heading h4{
+    color: #2980cc;
+}
+
+.about-heading hr{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 /*------------------------- Testimonials main text ---------------------------- */
 
 .testimonial p{
@@ -265,7 +280,6 @@ footer, h5{
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 .social{
     align-content: center;
     text-align: center;
