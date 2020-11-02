@@ -333,7 +333,8 @@ footer img{
 }
 
 .address{
-    text-align: center
+    text-align: center;
+    margin-top: 50px;
 }
 
 .address a{
@@ -354,6 +355,13 @@ footer img{
     display: block;
 }
 
+form{
+    background-color: rgba(41, 128, 204, 0.1);
+    border: 0.5px solid #737373;
+    border-radius: 2%;
+    padding: 15px 15px 15px;
+}
+
 /*------------------------- footer ---------------------------- */
 footer{
     background-color: #737373;
@@ -366,11 +374,15 @@ footer h5{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 18px;
+    align-items: center;
+    vertical-align: middle;
 }
 
 footer p{
     font-size: 14px;
     font-weight: 200;
+    align-items: center;
+    vertical-align: middle;
 }
 
 .social-links li a i {
