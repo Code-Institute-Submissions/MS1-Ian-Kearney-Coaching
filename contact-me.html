@@ -23,7 +23,7 @@
 		<div class="logo">
 			<a href="index.html">
 				<img
-            src="./assets/images/logos/logo-horizontal.png"
+            src="./assets/images/logos/ikc-logo-horizontal.png"
             alt="Ian Kearney Coaching Logo"
           />
         </a>
@@ -78,20 +78,20 @@
 						<form>
 							<div class="form-group">
 								<label for="ContactInputName">Full Name</label>
-								<input type="text" class="form-control" id="ContactInputName" aria-describedby="nameHelp">
+								<input type="text" class="form-control" id="ContactInputName" aria-describedby="nameHelp" required>
 							</div>
 								<div class="form-group">
 									<label for="ContactInputEmail">Email address</label>
-									<input type="email" class="form-control" id="ContactInputEmail" aria-describedby="emailHelp">
+									<input type="email" class="form-control" id="ContactInputEmail" aria-describedby="emailHelp" required>
 									<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 								</div>
 								<div class="form-group">
 									<label for="ContactInputPhone">Telephone No. </label>
-									<input type="phone" class="form-control" id="ContactInputPhone">
+									<input type="phone" class="form-control" id="ContactInputPhone" required>
   </div>
 									<div class="form-group">
 										<label class="my-1 mr-2" for="ContactInputEnquiryType">Reason For Contact</label>
-										<select class="custom-select my-1 mr-sm-2" id="ContactInputEnquiryType">
+										<select class="custom-select my-1 mr-sm-2" id="ContactInputEnquiryType" required>
 										    <option selected>General Enquiry</option>
 										    <option value="1">Pricing Enquiry</option>
 										    <option value="2">Struggling to book a lesson</option>
@@ -99,7 +99,7 @@
 									</div>
 									<div class="form-group">  
 										<label for="ContactInputMessage">Your Message</label>
-										<textarea class="form-control" id="ContactInputMessage" rows="3"></textarea>
+										<textarea class="form-control" id="ContactInputMessage" rows="3" required></textarea>
 									</div>
                                     <div class="submit-btn">
 									<button type="submit" class="btn btn-block">Submit</button></div>  

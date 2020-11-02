@@ -52,10 +52,6 @@ header{
     color: #fff;
 }
 
-.active{
-    color: #000;
-}
-
 a:link{
     text-decoration: none;
     color: #fff;
@@ -68,6 +64,11 @@ a:link{
 .nav-item a:hover{
     color: #000;
     text-decoration: underline;
+}
+
+.nav-item a:active{
+    color: #fff;
+    font-weight: 500;
 }
 
 .navbar-brand:visited{
@@ -87,8 +88,8 @@ a:link{
     width: 40%;
     height: auto;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 0 auto;
+  padding: 15px 0 15px 0;
 }
 
 .logo{
@@ -110,6 +111,7 @@ footer img{
     margin: auto;
     display: inline-block;
 }
+
 /*------------------------- testimonials banner image ---------------------------- */
 .testimonials-banner-image {
     height: 41.75vw;
@@ -293,7 +295,7 @@ footer img{
 }
 
 .testimonial{
-    align-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 768px){
@@ -301,6 +303,27 @@ footer img{
     text-align: center;
     margin:0px 20px 8px;
 }
+}
+
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+}
+
+@media screen and (min-width: 768px){
+    .testimonial img {
+    width: 75px;
+    height: 75px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .testimonial img {
+    width: 100px;
+    height: 100px;
+    }
 }
 
 /*------------------------- Contact main text ---------------------------- */
@@ -336,28 +359,27 @@ footer{
     background-color: #737373;
     color: #fff;
     width: 100%;
-    padding-top: 10px;
+    padding: 20px 0px 1px;
 }
 
-footer, h5{
+footer h5{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+footer p{
+    font-size: 14px;
+    font-weight: 200;
 }
 
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 12px;
-    padding-left: 10px;
+    padding: 12px 12px 12px 10px;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
     color: #fafafa;
     background: #2980cc;
     transition: all 0.35s ease-in-out;
@@ -365,6 +387,12 @@ footer, h5{
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+.social-links li a i:hover{
+    color: #2980cc;
+    background: #fff;
+}
+
 .social{
     align-content: center;
     text-align: center;
