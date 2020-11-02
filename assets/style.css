@@ -110,10 +110,84 @@ footer img{
     margin: auto;
     display: inline-block;
 }
-
-.banner-image img{
+/*------------------------- testimonials banner image ---------------------------- */
+.testimonials-banner-image {
+    height: 41.75vw;
     width: 100%;
-    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-image: url('../assets/images/banner/testimonials-banner.jpg');
+    background-color: rgba(115, 115, 115, 0.5);
+    opacity: .7;
+    align-items:center;
+}
+
+.testimonials-banner-image h1{
+    color: #000;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+}
+
+/*------------------------- contact banner image ---------------------------- */
+.contact-banner-image {
+    height: 41.75vw;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-image: url('../assets/images/banner/contact-banner.jpg');
+    background-color: rgba(115, 115, 115, 0.5);
+    opacity: .7;
+    align-items:center;
+}
+
+.contact-banner-image h1{
+    color: #000;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+}
+
+/*------------------------- pricing banner image ---------------------------- */
+.pricing-banner-image {
+    height: 41.75vw;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-image: url('../assets/images/banner/pricing-banner.jpg');
+    background-color: rgba(115, 115, 115, 0.5);
+    opacity: .7;
+    align-items:center;
+}
+
+.pricing-banner-image h1{
+    color: #000;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+}
+
+/*------------------------- book-a-lesson banner image ---------------------------- */
+.book-banner-image {
+    height: 41.75vw;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-image: url('../assets/images/banner/book-banner.jpg');
+    background-color: rgba(0, 0, 0, 1);
+    opacity: .8;
+    align-items:center;
+}
+
+.book-banner-image h1{
+    color: #fff;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
 }
 
 /*------------------------- Media Rules for images ---------------------------- */
@@ -159,22 +233,22 @@ footer img{
 
 @media screen and (max-width: 768px) {
     .main-text{
-        margin-left: 0vw;
-        margin-right: 0vw;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
 @media screen and (min-width: 1000px) {
     .main-text{
-        margin-left: 7vw;
-        margin-right: 7vw;
+        margin-left: 7%;
+        margin-right: 7%;
     }
 }
 
 @media screen and (min-width: 1400px) {
     .main-text{
-        margin-left: 15vw;
-        margin-right: 15vw;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 }
 
@@ -197,7 +271,7 @@ footer img{
 
 .testimonial p{
     text-align: center;
-    margin-bottom: 8px;
+    margin:0px 150px 8px;
 }
 
 .testimonial .improvements{
@@ -216,6 +290,17 @@ footer img{
 .testimonial-name{
     font-weight: bold;
     font-size: 18px;
+}
+
+.testimonial{
+    align-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .testimonial p{
+    text-align: center;
+    margin:0px 20px 8px;
+}
 }
 
 /*------------------------- Contact main text ---------------------------- */
