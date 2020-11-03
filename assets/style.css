@@ -283,6 +283,10 @@ footer img{
     margin-top: 10px;
 }
 
+.about-heading p{
+    font-size: 18px;
+}
+
 /*------------------------- Testimonials main text ---------------------------- */
 
 .testimonial p{
@@ -395,7 +399,7 @@ footer{
     background-color: #737373;
     color: #fff;
     width: 100%;
-    padding: 20px 0px 1px;
+    padding: 20px 0px 0px;
 }
 
 footer h5{
@@ -411,6 +415,15 @@ footer p{
     font-weight: 200;
     align-items: center;
     vertical-align: middle;
+}
+
+@media screen and (min-width: 1200px){
+    footer p{
+        font-size: 18px;
+    }
+    footer h5{
+        font-size: 22px;
+    }
 }
 
 .social-links li a i {
