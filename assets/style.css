@@ -271,7 +271,9 @@ footer img{
 /*------------------------- index main text ---------------------------- */
 
 .about-heading{
-    text-align: center
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
 }
 
 .about-heading h4{
@@ -285,6 +287,20 @@ footer img{
 
 .about-heading p{
     font-size: 18px;
+}
+
+.home-quote{
+    text-align: center;
+}
+
+.home-quote h6{
+    color: #737373;
+    font-weight: 400;
+}
+
+.home-quote h5{
+    color: #2980cc;
+    font-weight: 200;
 }
 
 /*------------------------- Testimonials main text ---------------------------- */
@@ -387,7 +403,6 @@ form{
     border: 0.5px solid #2980cc;
     border-radius: 2%;
     padding: 15px 15px 15px;
-    margin-bottom: 40px;
 }
 
 .price-box h4{
@@ -397,6 +412,7 @@ form{
 
 .main-text .row {
     margin-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 /*------------------------- footer ---------------------------- */
