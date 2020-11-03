@@ -171,7 +171,7 @@ footer img{
 }
 
 .pricing-banner-image h1{
-    color: #000;
+    color: #fff;
     font-family: 'lato', sans-serif;
     font-weight: 300;
     background-color: rgba(41, 128, 204, 0.5);
@@ -368,6 +368,20 @@ form{
     border: 0.5px solid #737373;
     border-radius: 2%;
     padding: 15px 15px 15px;
+}
+
+/*------------------------- pricing main text ---------------------------- */
+.price-box{
+    background-color: rgba(41, 128, 204, 0.3);
+    text-align: center;
+    border: 0.5px solid #2980cc;
+    border-radius: 2%;
+    padding: 15px 15px 15px;
+}
+
+.price-box h4{
+    font-weight: 700;
+    color: #2980cc;
 }
 
 /*------------------------- footer ---------------------------- */
