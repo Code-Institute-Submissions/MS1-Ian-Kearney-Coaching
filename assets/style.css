@@ -67,11 +67,6 @@ a:link{
     text-decoration: underline;
 }
 
-.nav-item a:active{
-    color: #fff;
-    font-weight: 500;
-}
-
 .navbar-brand:visited{
     color: #fff;
 }
@@ -82,6 +77,11 @@ a:link{
 
 .fa-bars{
     color: #fff;
+}
+
+.nav-item a:active{
+    color: red;
+    font-weight: 700;
 }
 
 /*------------------------- Images ---------------------------- */
@@ -127,7 +127,7 @@ footer img{
     display: flex;
     justify-content: center;
     background-image: url('../assets/images/banner/testimonials-banner.jpg');
-    background-color: rgba(115, 115, 115, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     opacity: .7;
     align-items:center;
 }
@@ -149,7 +149,7 @@ footer img{
     display: flex;
     justify-content: center;
     background-image: url('../assets/images/banner/contact-banner.jpg');
-    background-color: rgba(115, 115, 115, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     opacity: .7;
     align-items:center;
 }
@@ -171,7 +171,7 @@ footer img{
     display: flex;
     justify-content: center;
     background-image: url('../assets/images/banner/pricing-banner.jpg');
-    background-color: rgba(115, 115, 115, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     opacity: .7;
     align-items:center;
 }
@@ -193,7 +193,7 @@ footer img{
     display: flex;
     justify-content: center;
     background-image: url('../assets/images/banner/book-banner.jpg');
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgb(255, 255, 255);
     opacity: .8;
     align-items:center;
 }
@@ -278,6 +278,7 @@ footer img{
 
 .about-heading h4{
     color: #2980cc;
+    margin-top: 15px;
 }
 
 .about-heading hr{
@@ -291,16 +292,42 @@ footer img{
 
 .home-quote{
     text-align: center;
+    background-color: #2980cc;
+    font-family: 'lato', sans-serif;
 }
 
 .home-quote h6{
-    color: #737373;
+    color: #fff;
     font-weight: 400;
 }
 
 .home-quote h5{
-    color: #2980cc;
+    color: #fff;
     font-weight: 200;
+}
+
+@media screen and (max-width: 768px) {
+    .home-quote{
+        padding: 30px 3% 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home-quote{
+        padding: 30px 3% 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .home-quote{
+        padding: 30px 7% 20px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .home-quote{
+        padding: 30px 15% 20px;
+    }
 }
 
 /*------------------------- Testimonials main text ---------------------------- */
