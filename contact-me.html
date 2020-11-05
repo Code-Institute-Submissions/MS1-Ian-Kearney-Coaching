@@ -1,48 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Main Style Sheet-->
-    <link rel="stylesheet" href="./assets/style.css" />
-    <!--Bootstrap CSS v4.5.3-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
-    <!--Font Awesome-->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-      integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-      crossorigin="anonymous"
-    />
-    <!--Icon-->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/logos/ikc-logo-blue.jpeg"
-    />
-    <title>IKC - Contact Me</title>
-  </head>
 
-  <body>
-    <header>
-      <div class="logo">
-        <a href="index.html">
-          <img
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--Main Style Sheet-->
+	<link rel="stylesheet" href="./assets/style.css" />
+	<!--Bootstrap CSS v4.5.3-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+	<!--Font Awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+		integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" />
+	<!--Icon-->
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logos/ikc-logo-blue.jpeg" />
+	<title>IKC - Contact Me</title>
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html">
+				<img
             src="./assets/images/logos/ikc-logo-horizontal.png"
             alt="Ian Kearney Coaching Logo"
           />
         </a>
-      </div>
+		</div>
 
-      <nav class="navbar navbar-expand-lg justify-content-center">
-        <a class="navbar-brand" href="index.html">Ian Kearney Coaching</a>
-        <button
+		<nav class="navbar ikc-navbar navbar-expand-lg justify-content-center">
+			<a class="navbar-brand d-block d-sm-block d-md-block d-lg-none" href="index.html">Ian Kearney Coaching</a>
+			<button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -53,46 +41,43 @@
         >
           <i class="fas fa-bars"></i>
         </button>
-        <div
-          class="justify-content-center collapse navbar-collapse justify-content-center"
-          id="navbarNavDropdown"
-        >
-          <ul class="navbar-nav mr-auto justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home & About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="testimonials.html">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="book-a-lesson.html">Book A Lesson</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact-me.html">Contact Me</a>
-            </li>
-          </ul>
-          <span class="navbar-text">
+			<div class="justify-content-center collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+				<ul class="navbar-nav mr-auto justify-content-center">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home & About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="testimonials.html">Testimonials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pricing.html">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="book-a-lesson.html">Book A Lesson</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="contact-me.html">Contact Me</a>
+					</li>
+				</ul>
+				<span class="navbar-text">
             <i>Helping golfers achieve their maximum potential, always... </i>
           </span>
-        </div>
-      </nav>
-    </header>
+			</div>
+		</nav>
+	</header>
 
-    <div class="contact-banner-image">
-      <h1>Contact Me</h1>
-    </div>
+	<div class="contact-banner-image">
+		<h1>Contact Me</h1>
+	</div>
 
-    <section class="main-text">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6">
-            <form>
-              <div class="form-group">
-                <label for="ContactInputName">Full Name</label>
-                <input
+	<section class="main-text">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6">
+					<form>
+						<div class="form-group">
+							<label for="ContactInputName">Full Name</label>
+							<input
                   type="text"
                   class="form-control"
                   id="ContactInputName"
@@ -100,33 +85,31 @@
                   required
                 />
               </div>
-              <div class="form-group">
-                <label for="ContactInputEmail">Email address</label>
-                <input
+							<div class="form-group">
+								<label for="ContactInputEmail">Email address</label>
+								<input
                   type="email"
                   class="form-control"
                   id="ContactInputEmail"
                   aria-describedby="emailHelp"
                   required
                 />
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
-              </div>
-              <div class="form-group">
-                <label for="ContactInputPhone">Telephone No. </label>
-                <input
+								<small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small>
+							</div>
+							<div class="form-group">
+								<label for="ContactInputPhone">Telephone No. </label>
+								<input
                   type="phone"
                   class="form-control"
                   id="ContactInputPhone"
                   required
                 />
               </div>
-              <div class="form-group">
-                <label class="my-1 mr-2" for="ContactInputEnquiryType"
-                  >Reason For Contact</label
-                >
-                <select
+								<div class="form-group">
+									<label class="my-1 mr-2" for="ContactInputEnquiryType"
+                  >Reason For Contact</label>
+									<select
                   class="custom-select my-1 mr-sm-2"
                   id="ContactInputEnquiryType"
                   required
@@ -135,107 +118,106 @@
                   <option value="1">Pricing Enquiry</option>
                   <option value="2">Struggling to book a lesson</option>
                 </select>
-              </div>
-              <div class="form-group">
-                <label for="ContactInputMessage">Your Message</label>
-                <textarea
+								</div>
+								<div class="form-group">
+									<label for="ContactInputMessage">Your Message</label>
+									<textarea
                   class="form-control"
                   id="ContactInputMessage"
                   rows="3"
                   required
                 ></textarea>
-              </div>
-              <div class="submit-btn">
-                <button type="submit" class="btn btn-block">Submit</button>
-              </div>
-            </form>
-          </div>
-          <div class="col-sm-6 address">
-            <h4>Academy Address:</h4>
-            <div class="mb-4"></div>
-            <p>Dromoland Castle Golf Academy</p>
-            <p>Newmarket On Fergus</p>
-            <p>Co. Clare</p>
-            <p>V95 PH22</p>
-            <p>Ireland</p>
-            <div class="mb-4"></div>
-            <a href="mailto:golf@dromolandcastle.ie">golf@dromolandcastle.ie</a>
-            <p>+353 061 368444</p>
-          </div>
-        </div>
-      </div>
-    </section>
+								</div>
+								<div class="submit-btn">
+									<button type="submit" class="btn btn-block">Submit</button>
+								</div>
+					</form>
+				</div>
+				<div class="col-sm-6 address">
+					<h4>Academy Address:</h4>
+					<div class="mb-4"></div>
+					<p>Dromoland Castle Golf Academy</p>
+					<p>Newmarket On Fergus</p>
+					<p>Co. Clare</p>
+					<p>V95 PH22</p>
+					<p>Ireland</p>
+					<div class="mb-4"></div>
+					<a href="mailto:golf@dromolandcastle.ie">golf@dromolandcastle.ie</a>
+					<p>+353 061 368444</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <footer>
-      <div class="container-fluid footer">
-        <div id="footer-details" class="row">
-          <div class="col-sm-4 d-flex align-items-center">
-            <img
+	<footer>
+		<div class="container-fluid footer">
+			<div id="footer-details" class="row">
+				<div class="col-sm-4 d-flex align-items-center">
+					<img
               class="float-left"
               src="./assets/images/logos/DC-Logo.png"
               alt="Dromoland Castle Logo"
             />
-            <img
+					<img
               class="float-right"
               src="./assets/images/logos/PGA-logo.png"
               alt="Professional Golfers Association Logo"
             />
           </div>
-          <div class="col-sm-4 social">
-            <h5 class="uppercase general-sub">Contact</h5>
-            <p>
-              Want to get in touch? Contact me here.
-              <a href="contact-me.html" class="cv-pdf">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span class="sr-only">Contact link.</span>
-              </a>
-            </p>
-          </div>
-          <div class="col-sm-4 social">
-            <h5 class="uppercase general-sub" style="align: center">Social</h5>
-            <ul class="list-inline social-links">
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.facebook.com/">
-                  <i class="fab fa-facebook" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.twitter.com/" target="_blank">
-                  <i class="fab fa-twitter" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/" target="_blank">
-                  <i class="fab fa-linkedin" aria-hidden="true"></i>
-                  <span class="sr-only">Linkedin</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/" target="_blank">
-                  <i class="fab fa-instagram" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.youtube.com/" target="_blank">
-                  <i class="fab fa-youtube" aria-hidden="true"></i>
-                  <span class="sr-only">YouTube</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"
-  ></script>
+					<div class="col-sm-4 social">
+						<h5 class="uppercase general-sub">Contact</h5>
+						<p>
+							Want to get in touch? Contact me here.
+							<a href="contact-me.html" class="cv-pdf">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<span class="sr-only">Contact link.</span>
+							</a>
+						</p>
+					</div>
+					<div class="col-sm-4 social">
+						<h5 class="uppercase general-sub" style="align: center">Social</h5>
+						<ul class="list-inline social-links-icon">
+							<li class="list-inline-item">
+								<a target="_blank" href="https://www.facebook.com/">
+									<i class="fab fa-facebook" aria-hidden="true"></i>
+									<span class="sr-only">Facebook</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://www.twitter.com/" target="_blank">
+									<i class="fab fa-twitter" aria-hidden="true"></i>
+									<span class="sr-only">Twitter</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://www.linkedin.com/" target="_blank">
+									<i class="fab fa-linkedin" aria-hidden="true"></i>
+									<span class="sr-only">Linkedin</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://www.instagram.com/" target="_blank">
+									<i class="fab fa-instagram" aria-hidden="true"></i>
+									<span class="sr-only">Instagram</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://www.youtube.com/" target="_blank">
+									<i class="fab fa-youtube" aria-hidden="true"></i>
+									<span class="sr-only">YouTube</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+</script>
+
 </html>

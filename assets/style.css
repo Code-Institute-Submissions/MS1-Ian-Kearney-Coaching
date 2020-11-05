@@ -18,7 +18,7 @@ body{
     position: relative;
 }
 
-.row{
+.ikc-row{
     margin-bottom: 30px;
 }
 
@@ -40,7 +40,7 @@ header{
     text-decoration: none;
 }
 
-.navbar{
+.ikc-navbar{
     font-family: 'lato', sans-serif;
     font-weight: 300;
     font-size: 15px;
@@ -53,7 +53,7 @@ header{
     color: #fff;
 }
 
-a:link{
+header a:link{
     text-decoration: none;
     color: #fff;
 }
@@ -64,7 +64,6 @@ a:link{
 
 .nav-item a:hover{
     color: #000;
-    text-decoration: underline;
 }
 
 .navbar-brand:visited{
@@ -79,9 +78,8 @@ a:link{
     color: #fff;
 }
 
-.nav-item a:active{
-    color: red;
-    font-weight: 700;
+.nav-item .active{
+    text-decoration: underline;
 }
 
 /*------------------------- Images ---------------------------- */
@@ -95,11 +93,6 @@ a:link{
 
 .logo{
     align-content: center;
-}
-
-.navbar-logo{
-    height: 30px;
-    width: auto;
 }
 
 footer img{
@@ -437,7 +430,7 @@ form{
     color: #2980cc;
 }
 
-.main-text .row {
+.main-text .ikc-row {
     margin-bottom: 0px;
     padding-bottom: 30px;
 }
@@ -465,6 +458,16 @@ footer p{
     vertical-align: middle;
 }
 
+.mt-auto, .my-auto {
+    margin-top: auto!important;
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+.pt-3, .py-3 {
+    padding-top: 1rem!important;
+}
+
 @media screen and (min-width: 1200px){
     footer p{
         font-size: 18px;
@@ -474,7 +477,7 @@ footer p{
     }
 }
 
-.social-links li a i {
+.social-links-icon i {
     width: 32px;
     height: 32px;
     padding: 12px 12px 12px 10px;
@@ -489,7 +492,7 @@ footer p{
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover{
+.social-links-icon li a i:hover{
     color: #2980cc;
     background: #fff;
 }
