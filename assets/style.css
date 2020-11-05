@@ -237,28 +237,6 @@ footer img{
     font-weight: 400;
     font-size:16px;
     color: #737373;
-    padding: 5vh; 
-}
-
-@media screen and (max-width: 768px) {
-    .main-text{
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    .main-text{
-        margin-left: 7%;
-        margin-right: 7%;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    .main-text{
-        margin-left: 15%;
-        margin-right: 15%;
-    }
 }
 
 /*------------------------- index main text ---------------------------- */
@@ -299,6 +277,10 @@ footer img{
     font-weight: 200;
 }
 
+.home-row{
+    padding-top: 30px;
+}
+
 @media screen and (max-width: 768px) {
     .home-quote{
         padding: 30px 3% 20px;
@@ -325,9 +307,14 @@ footer img{
 
 /*------------------------- Testimonials main text ---------------------------- */
 
+.testimonial{
+    align-items: center;
+    margin: 0 30px 0;
+}
+
 .testimonial p{
     text-align: center;
-    margin:0px 150px 8px;
+    margin-bottom:8px;
 }
 
 .testimonial .improvements{
@@ -346,17 +333,6 @@ footer img{
 .testimonial-name{
     font-weight: bold;
     font-size: 18px;
-}
-
-.testimonial{
-    align-items: center;
-}
-
-@media screen and (max-width: 768px){
-    .testimonial p{
-    text-align: center;
-    margin:0px 20px 8px;
-}
 }
 
 .testimonial img {
@@ -423,6 +399,7 @@ form{
     border: 0.5px solid #2980cc;
     border-radius: 2%;
     padding: 15px 15px 15px;
+    margin: 15px 0 15px;
 }
 
 .price-box h4{
@@ -431,7 +408,7 @@ form{
 }
 
 .main-text .ikc-row {
-    margin-bottom: 0px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -441,6 +418,7 @@ footer{
     color: #fff;
     width: 100%;
     padding: 20px 0px 0px;
+    margin-top: 30px;
 }
 
 footer h5{
