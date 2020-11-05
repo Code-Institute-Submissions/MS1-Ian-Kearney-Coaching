@@ -1,6 +1,6 @@
 /*--------------------- Fonts --------------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Euphoria+Script&display=swap');
 
 /*------------------------- Standard styling across all pages ---------------------------- */
 html, body{
@@ -108,7 +108,6 @@ footer img{
     height: auto;
     align-content: center;
     margin: auto;
-    display: inline-block;
 }
 
 /*------------------------- testimonials banner image ---------------------------- */
@@ -213,20 +212,12 @@ footer img{
     width: 30%;
     height: auto;
   }
-  .home img {
-      width: 100%;
-    height: auto;
-  }
 }
 
 @media screen and (min-width: 1200px) {
   .logo img {
     width: 20%;
     height: auto;
-  }
-  .main-text img{
-      width: 100%;
-      height: auto;
   }
 }
 /*------------------------- body text ---------------------------- */
@@ -265,11 +256,12 @@ footer img{
     text-align: center;
     background-color: #2980cc;
     font-family: 'lato', sans-serif;
+    padding: 30px 30px 30px;
 }
 
-.home-quote h6{
+.home-quote h2{
     color: #fff;
-    font-weight: 400;
+    font-family: 'Euphoria Script', cursive, sans-serif;
 }
 
 .home-quote h5{
@@ -278,31 +270,7 @@ footer img{
 }
 
 .home-row{
-    padding-top: 30px;
-}
-
-@media screen and (max-width: 768px) {
-    .home-quote{
-        padding: 30px 3% 20px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .home-quote{
-        padding: 30px 3% 20px;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    .home-quote{
-        padding: 30px 7% 20px;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    .home-quote{
-        padding: 30px 15% 20px;
-    }
+    margin-top: 30px;
 }
 
 /*------------------------- Testimonials main text ---------------------------- */
@@ -399,7 +367,7 @@ form{
     border: 0.5px solid #2980cc;
     border-radius: 2%;
     padding: 15px 15px 15px;
-    margin: 15px 0 15px;
+    margin-top: 30px;
 }
 
 .price-box h4{
