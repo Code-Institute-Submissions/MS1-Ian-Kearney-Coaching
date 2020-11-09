@@ -427,10 +427,6 @@ footer p{
     line-height: 7px;
     color: #fafafa;
     background: #2980cc;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links-icon li a i:hover{
