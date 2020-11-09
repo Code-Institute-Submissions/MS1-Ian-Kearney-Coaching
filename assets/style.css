@@ -22,6 +22,13 @@ body{
     margin-top: 30px;
 }
 
+.ikc-hr {
+    border: 1px solid #2980cc;
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 /*------------------------- Header ---------------------------- */
 
@@ -301,13 +308,6 @@ header a:link{
     font-size: 12px;
 }
 
-.hr {
-    border: 1px solid #2980cc;
-    width: 25%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 .testimonial-name{
     font-weight: bold;
     font-size: 18px;
@@ -365,16 +365,16 @@ header a:link{
 
 form{
     background-color: rgba(41, 128, 204, 0.1);
-    border: 0.5px solid #2980cc;
-    border-radius: 2%;
+    box-shadow: 0px 0px 5px 0px #737373;
     padding: 15px 15px 15px;
+    border-radius: 2%;
 }
 
 /*------------------------- pricing main text ---------------------------- */
 .price-box{
     background-color: rgba(41, 128, 204, 0.3);
     text-align: center;
-    border: 0.5px solid #2980cc;
+    box-shadow: 0px 0px 5px 0px #737373;
     border-radius: 2%;
     padding: 15px 15px 15px;
     margin-top: 30px;
