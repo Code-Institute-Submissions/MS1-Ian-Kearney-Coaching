@@ -65,7 +65,7 @@
       <div class="book-banner-image">
          <h1>Book A Lesson</h1>
       </div>
-      <section class="main-text">
+      <div class="main-text">
          <div class="container-fluid">
             <div class="row justify-content-center ikc-row">
                <div class="col-md-8 col-lg-6">
@@ -76,7 +76,6 @@
                            type="text"
                            class="form-control"
                            id="BookInputName"
-                           aria-describedby="nameHelp"
                            required
                            />
                      </div>
@@ -95,7 +94,7 @@
                      <div class="form-group">
                         <label for="BookInputPhone">Telephone No. </label>
                         <input
-                           type="phone"
+                           type="tel"
                            class="form-control"
                            id="BookInputPhone"
                            required
@@ -109,10 +108,11 @@
                            id="BookInputLessonType"
                            required
                            >
-                           <option selected>Single Lesson (30 min)</option>
-                           <option value="1">Short-game Masterclass (60 min)</option>
-                           <option value="2">Tune-up Three (3 x 30 min)</option>
-                           <option value="3">Winter Program (8 x 30 min)</option>
+                           <option selected value="">Please choose...</option>
+                           <option value="1">Single Lesson (30 min)</option>
+                           <option value="2">Short-game Masterclass (60 min)</option>
+                           <option value="3">Tune-up Three (3 x 30 min)</option>
+                           <option value="4">Winter Program (8 x 30 min)</option>
                         </select>
                      </div>
                      <div class="form-group">
@@ -135,10 +135,11 @@
                            id="BookInputTimeOfLesson"
                            required
                            >
-                           <option selected>Morning (8:00 - 12:00)</option>
-                           <option value="1">Afternoon (13:00 - 16:00)</option>
-                           <option value="2">Evening (16:00 - 19:00)</option>
-                           <option value="3">Late Evening (19:00 - 21:00)</option>
+                           <option selected value="">Please choose...</option>
+                           <option value="1">Morning (8:00 - 12:00)</option>
+                           <option value="2">Afternoon (13:00 - 16:00)</option>
+                           <option value="3">Evening (16:00 - 19:00)</option>
+                           <option value="4">Late Evening (19:00 - 21:00)</option>
                         </select>
                      </div>
                      <div class="submit-btn">
@@ -148,7 +149,7 @@
                </div>
             </div>
          </div>
-      </section>
+      </div>
       <footer>
          <div class="container-fluid footer">
             <div id="footer-details" class="row justify-content-center">
@@ -262,10 +263,8 @@
             </div>
          </div>
       </footer>
-   </body>
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-</html>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    </body>
+    </html>
