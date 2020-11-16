@@ -122,7 +122,7 @@ header a:link{
 
 /*------------------------- testimonials banner image ---------------------------- */
 .testimonials-banner-image {
-    height: 41.75vw;
+    height: 33.5vw;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -144,14 +144,14 @@ header a:link{
 
 /*------------------------- contact banner image ---------------------------- */
 .contact-banner-image {
-    height: 41.75vw;
+    height: 33.5vw;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     background-image: url('../assets/images/banner/contact-banner.jpg');
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 1);
     opacity: .7;
     align-items:center;
 }
@@ -166,7 +166,7 @@ header a:link{
 
 /*------------------------- pricing banner image ---------------------------- */
 .pricing-banner-image {
-    height: 41.75vw;
+    height: 33.5vw;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -188,7 +188,7 @@ header a:link{
 
 /*------------------------- book-a-lesson banner image ---------------------------- */
 .book-banner-image {
-    height: 41.75vw;
+    height: 33.5vw;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -366,7 +366,7 @@ header a:link{
 form{
     background-color: rgba(41, 128, 204, 0.1);
     box-shadow: 0px 0px 5px 0px #737373;
-    padding: 15px 15px 15px;
+    padding: 25px 25px 25px;
     border-radius: 2%;
 }
 
