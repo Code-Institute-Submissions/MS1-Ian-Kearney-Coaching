@@ -71,7 +71,7 @@ header a:link{
 }
 
 .nav-item a:hover{
-    color: #000;
+    text-decoration: underline;
 }
 
 .navbar-brand:visited{
@@ -87,7 +87,7 @@ header a:link{
 }
 
 .nav-item .active{
-    text-decoration: underline;
+    color: #000;
 }
 
 /*------------------------- Images ---------------------------- */
