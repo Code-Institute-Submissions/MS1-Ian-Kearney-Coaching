@@ -128,7 +128,7 @@ header a:link{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    background-image: url('../assets/images/banner/testimonials-banner.jpg');
+    background-image: url('../images/banner/testimonials-banner.jpg');
     background-color: rgba(255, 255, 255, 0.5);
     opacity: .7;
     align-items:center;
@@ -150,7 +150,7 @@ header a:link{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    background-image: url('../assets/images/banner/contact-banner.jpg');
+    background-image: url('../images/banner/contact-banner.jpg');
     background-color: rgba(255, 255, 255, 1);
     opacity: .7;
     align-items:center;
@@ -172,7 +172,7 @@ header a:link{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    background-image: url('../assets/images/banner/pricing-banner.jpg');
+    background-image: url('../images/banner/pricing-banner.jpg');
     background-color: rgba(255, 255, 255, 0.5);
     opacity: .7;
     align-items:center;
@@ -194,7 +194,7 @@ header a:link{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    background-image: url('../assets/images/banner/book-banner.jpg');
+    background-image: url('../images/banner/book-banner.jpg');
     background-color: rgb(255, 255, 255);
     opacity: .8;
     align-items:center;
